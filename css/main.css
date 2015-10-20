@@ -6,19 +6,70 @@ html {
     background-size: cover;
 }
 
-.splash-div {
-    padding: 5px;
-    color: #FFF;
+body {
+   font-family: 'Roboto', sans-serif;
 }
 
-.splash-div h1 {
-    font-size: 52px;
+.menu {
+    padding: 20px 0px 0px 10px;
+    display: inline-block;
+}
+
+.splash-wrapper {
+    margin-left: 52%;
+    position: absolute;
+    bottom: 10%;
+}
+
+.splash-div {
+    padding: 10px 100px 10px 20px;
+    display: inline-block;
+    color: #FFF;
+    margin: 0px 0px 20px 0px;
+    font-size: 62px;
+    font-weight: 700;
+}
+
+.splash-div-title {
+    padding: 10px 200px 10px 20px;
+    font-size: 72px;
 }
 
 .splash-btn {
-    background-color: #DF7027;  
+    background-color: #DF7027;
+    padding: 10px 20px 10px 20px;
+    font-size: 62px;
+    margin-bottom: 45%;
+}
+
+.splash-btn span:nth-child(1) {
+    font-style: italic;
+}
+
+.splash-btn span:nth-child(2) {
+    position: relative;
+    top: 5px;
 }
 
 .splash-text {
     background-color: #158546;
+}
+
+@media (max-width: 1500px) {
+    .splash-wrapper {
+        margin-left: 35%;
+        bottom: 5%;
+    }
+    .splash-div {
+        padding: 10px 70px 10px 20px;
+        font-size: 48px;
+    }
+    .splash-btn {
+        padding: 10px 20px 10px 20px;
+        font-size: 62px;
+    }
+    .splash-div-title {
+        padding: 10px 150px 10px 20px;
+        font-size: 58px;
+    }
 }
