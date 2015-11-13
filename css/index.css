@@ -1,9 +1,9 @@
 html {
-	background: url(../img/index-bg.png) no-repeat center center fixed; 
+	background: url(../img/index-bg.png) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover;	
+    background-size: cover;
 }
 
 .splash-wrapper {
@@ -70,7 +70,8 @@ html {
         margin: auto;
     }
 	.splash-btn {
-		bottom: 20px;	
+		bottom: 20px;
+		margin-bottom: 20px;	
 	}
 }
 
@@ -80,7 +81,6 @@ html {
         font-size: 28px;
     }
     .splash-btn {
-        margin-bottom: 20px;
         padding: 10px 20px 10px 20px;
         font-size: 42px;
     }

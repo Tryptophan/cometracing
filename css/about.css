@@ -1,7 +1,43 @@
-.content-wrapper {
-	background: url(../img/about-bg.png) no-repeat center center fixed; 
+.content-wrapper{
+	background: url(../img/about-bg.png) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover;		
+    background-size: cover;
 }
+
+.row {
+	display: block;
+	width: 100%;
+	margin: 40px auto;
+	position: relative;
+}
+
+.officer {
+	background-color: #69BE28;
+	display: inline-block;
+	margin-right: -4px;
+	margin-right: 80px;
+	text-align: left;
+	color: #FFF;
+	position: relative;
+	padding: 20px 20px 20px 20px;
+}
+
+.officer img {
+	display: block;
+	margin-bottom: 20px;
+}
+
+.officer span {
+	font-size: 12px;
+	display: block;
+}
+
+.officer-tag {
+	font-size: 16px !important;
+}
+
+/*.row :last-child {
+	margin: 0;
+}*/

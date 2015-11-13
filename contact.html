@@ -1,14 +1,18 @@
 <!DOCTYPE html>
 <html>
     <head>
+		<link rel="icon" href="img/favicon.png">
 		<title>Comet Racing</title>
 		<meta name="viewport" content="width=device-width">
         <!-- CSS Refrences -->
-        <link href="css/global.css" rel="stylesheet">
+        <link href="css/global.min.css" rel="stylesheet">
+		<link href="css/contact.min.css" rel="stylesheet">
     </head>
 
     <body>
         <div class="menu-wrapper">
+			<a class="menu-toggle" href="#"><img src="img/menu.png"></a>
+			<a class="close-toggle" href="#"><img src="img/close.png"></a>
             <ul class="tabs">
 				<a href="index.html"><li class="tab">Home</li></a>
 				<a href="about.html"><li class="tab">About</li></a>
@@ -20,9 +24,26 @@
 				<a href="https://www.facebook.com/utdfsae" target="_blank"><span class="socicon-instagram"></span></a>
 			</div>
         </div>
-        
+		<div class="menu-buffer"></div>
+		<div class="content-wrapper">
+			<form>
+				<span>Name:</span>
+				<input type="text" size="40" name="name">
+
+				<span>Email:</span>
+				<input type="text" size="40" name="email">
+
+				<span>Subject:</span>
+				<input type="text" size="40" name="subject">
+
+				<span>Message:</span>
+				<textarea rows="10" cols="42" name="message"></textarea>
+				
+				<input class="submit" type="submit" value="Send">
+			</form>
+		</div>
     </body>
     <!-- JQuery & JS Refrences -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-    <script src="js/bounce.min.js"></script>
+    <script src="js/menu.min.js"></script>
 </html>
