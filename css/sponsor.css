@@ -1,0 +1,14 @@
+.sponsors {
+    width: fit-content;
+    text-align: center;
+    margin: 80px auto 80px auto;
+}
+
+.sponsors img {
+    width: 15%;
+    margin-right: 40px;
+}
+
+.sponsorship {
+    margin-top: 40px;
+}
