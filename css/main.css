@@ -165,7 +165,7 @@ li:last-child {
 }
 
 table {
-    border: 5px solid #69BE28;
+    border-bottom: 5px solid #69BE28;
     width: 100%;
 }
 
