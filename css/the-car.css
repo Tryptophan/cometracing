@@ -1,0 +1,56 @@
+.iterations div {
+    clear: both;
+}
+.iterations div:nth-child(01) {
+    float: left;
+}
+
+.iterations p:nth-child(02) {
+    float: right;
+}
+
+.iterations div:nth-child(03) {
+    float: left;
+}
+
+.iterations div:nth-child(04) {
+    float: right;
+}
+
+.iterations div:nth-child(05) {
+    float: left;
+}
+
+.iterations div:nth-child(06) {
+    float: right;
+}
+
+.iteration {
+    width: 400px;
+    height: 400px;
+    margin: 80px auto;
+    border: 10px dashed #DF7027;
+    position: relative;
+    border-radius: 50%;
+    overflow: hidden;
+    text-align: center;
+}
+
+.iteration span {
+    position: absolute;
+    left: 45%;
+    bottom: -100px;
+    font-size: 20px;
+}
+
+.iteration img {
+    display: inline;
+    height: 200px;
+    width: auto;
+    margin: 0 auto;
+}
+
+.iteration, .iteration img {
+    line-height: 400px; 
+    vertical-align: middle;
+}
