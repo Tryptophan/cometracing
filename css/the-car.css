@@ -25,6 +25,11 @@
     float: right;
 }
 
+.the-car {
+    width: 100%;
+    margin-top: 40px;
+}
+
 .iteration {
     width: 400px;
     height: 400px;
