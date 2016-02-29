@@ -13,6 +13,10 @@
     margin-top: 40px;
 }
 
+.sponsorshop table {
+    border: none;
+}
+
 .sponsorship table tbody tr th {
 	color: #FFF;
 }
@@ -39,4 +43,15 @@
 
 .sponsorship table tbody tr:nth-child(02) {
 	font-style: italic;
+}
+
+.sponsorship table tbody tr:nth-child(02) td:first-child {
+    font-style: normal;
+}
+
+.footer-logo img {
+}
+
+.footer-logo {
+    
 }
