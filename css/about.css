@@ -52,6 +52,19 @@
     margin: 0 auto;
 }
 
+.officers .row .officer:last-child{
+    margin-right: 0px;
+}
+
+.chapter-header {
+    margin-top: 40px;
+    width: 80%;
+}
+
+.officer-header {
+    margin: 40px auto !important;
+}
+
 /*.row :last-child {
 	margin: 0;
 }*/

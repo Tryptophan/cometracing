@@ -46,6 +46,11 @@ p {
     font-size: 34px;
 }
 
+.tabs img {
+    width: 150px;
+    margin: 20px 0px 0px 20px;
+}
+
 a:link {
 	text-decoration: none;
 	color: #DF7027;
