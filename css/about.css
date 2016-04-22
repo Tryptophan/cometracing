@@ -38,6 +38,26 @@
 	margin-bottom: 20px;
 }
 
+.officer .arye {
+	display: block;
+	width: 150px;
+	height: 150px;
+	background-image: url(../img/arye.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	margin-bottom: 20px;
+}
+
+.officer .ruger {
+	display: block;
+	width: 150px;
+	height: 150px;
+	background-image: url(../img/ruger.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	margin-bottom: 20px;
+}
+
 .officer span {
 	font-size: 12px;
 	display: block;
