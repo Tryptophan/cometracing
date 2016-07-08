@@ -29,10 +29,7 @@
 
     <jsp:attribute name="splash">
         <div class="splash-wrapper">
-            <a href="/about">
-                <div class="splash-div splash-btn"><span>Learn More </span><span>&#10137;</span></div>
-            </a>
-            <div class="splash-div splash-div-title splash-text">Comet Racing</div>
+            <div class="splash-div splash-div-title splash-text">UTD Motorsports</div><br>
             <div class="splash-div splash-text">In the fast lane...</div>
         </div>
     </jsp:attribute>
