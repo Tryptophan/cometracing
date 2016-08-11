@@ -37,11 +37,11 @@
                 <a href="http://www.regalresearch.com/" target="_blank"><img src="resources/img/regal-research.png"></a>
             </div>
             <h1>Sponsorship</h1>
-			<p>Comet Racing is a student-run organization that depends entirely on the monetary, material, and product
+			<p>UTD Motorsports is a student-run organization that depends entirely on the monetary, material, and product
                 donations as well as technical support and training from businesses and individuals. Without the
-                incredibly generous support of our sponsors, Comet Racing, and its substantial benefit to students and
+                incredibly generous support of our sponsors, UTD Motorsports, and its substantial benefit to students and
                 industry, would cease to exist.<br><br>We work closely with our sponsors, who provide crucial support,
-                and help to further the team's capabilities. We are proud to represent Comet Racing and we hope you will
+                and help to further the team's capabilities. We are proud to represent UTD Motorsports and we hope you will
                 support our efforts.</p>
             <div class="sponsorship">
                 <h2>Levels of Opportunity</h2>
@@ -98,7 +98,7 @@
                     <li>Thousands of professional representatives, exceptional students, and enthusiats attend the FSAE
                         competitions in Michigan and Nebraska
                     </li>
-                    <li>University events such as Engineering Week, Welcome Week, alumni events, and Comet Racing
+                    <li>University events such as Engineering Week, Welcome Week, alumni events, and UTD Motorsports
                         promotional events
                     </li>
                     <li>Local publicity at car shows, SCCA events, car club events, and track days</li>
@@ -133,13 +133,7 @@
 
             <div class="footer">
                 <a href="/contact">
-                    <div class="button left-button">Become a Sponsor</div>
-                </a>
-                <a href="/">
-                    <div class="footer-logo"><img src="resources/img/logo.png"></div>
-                </a>
-                <a href="https://www.facebook.com/utdfsae">
-                    <div class="button right-button">Check us out on Facebook</div>
+                    <div class="button">Become a Sponsor</div>
                 </a>
             </div>
     </jsp:attribute>

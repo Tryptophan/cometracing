@@ -30,7 +30,6 @@
     <jsp:attribute name="splash">
         <div class="splash-wrapper">
             <div class="splash-div splash-div-title splash-text">UTD Motorsports</div><br>
-            <div class="splash-div splash-text">In the fast lane...</div>
         </div>
     </jsp:attribute>
 

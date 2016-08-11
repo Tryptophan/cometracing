@@ -30,9 +30,9 @@
 
 
     <jsp:attribute name="content">
-        <h1>About Comet Racing</h1>
+        <h1>About UTD Motorsports</h1>
         <img class="chapter-header" src="resources/img/header.png">
-        <p>Comet Racing is a group of dedicated and passionate UT Dallas students who will design, manufacture and
+        <p>UTD Motorsports is a group of dedicated and passionate UT Dallas students who will design, manufacture and
             race an open wheel formula-style race car to compete in the national Formula SAE Championship.<br><br>We
             recognize the need for students to take the concepts they learn in the classroom and apply them to
             real-world situations. Our student team members gain invaluable experience with practical engineering
@@ -85,7 +85,7 @@
             aerospace, automotive, and commercial vehicle industries.<br><br>SAE International is the leader in
             connecting and educating engineers while promoting, developing, and advancing aerospace, commercial
             vehicle, and automotive engineering. Formula SAE is the largest of the SAE-sponsored student design
-            competitions within its Collegiate Design Series.<br><br>During the four-day event, Comet Racing will
+            competitions within its Collegiate Design Series.<br><br>During the four-day event, UTD Motorsports will
             compete among a field of over 100 schools from around the world. Our race car will be judged on the
             vehicle's design, cost, innovation, safety, and performance, as well as our team's ability to present
             the engineering concepts used to develop the final design.</p>

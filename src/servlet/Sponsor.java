@@ -1,3 +1,5 @@
+package servlet;
+
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -6,16 +8,16 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
 /**
- * TheCar page servlet
+ * servlet.Sponsor page servlet
  */
 
-@WebServlet(name = "TheCar", urlPatterns = "/the-car")
-public class TheCar extends HttpServlet {
+@WebServlet(name = "servlet.Sponsor", urlPatterns = "/sponsor")
+public class Sponsor extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        request.getRequestDispatcher("/the-car.jsp").include(request, response);
+        request.getRequestDispatcher("/sponsor.jsp").include(request, response);
     }
 }

@@ -1,3 +1,7 @@
+package servlet;
+
+import servlet.smtp.Mailer;
+
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -6,10 +10,10 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
 /**
- * Contact page servlet
+ * servlet.Contact page servlet
  */
 
-@WebServlet(name = "Contact", urlPatterns = "/contact")
+@WebServlet(name = "servlet.Contact", urlPatterns = "/contact")
 public class Contact extends HttpServlet {
 
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
@@ -18,12 +22,15 @@ public class Contact extends HttpServlet {
         String subject = request.getParameter("subject");
         String message = request.getParameter("message");
 
-        /** TODO: make success/failure templates */
+        /* TODO: make success/failure templates */
+
         try {
             Mailer.send(name, "jagreenway12@gmail.com", email, subject, message);
-            request.getRequestDispatcher("/contact-success").forward(request, response);
+            request.setAttribute("message", "Success! We will respond to you as soon as possible!");
+            request.getRequestDispatcher("/contact.jsp").forward(request, response);
         } catch (Exception e) {
-            request.getRequestDispatcher("/contact-failure").forward(request, response);
+            request.setAttribute("message", e);
+            request.getRequestDispatcher("/contact.jsp").forward(request, response);
         }
     }
 

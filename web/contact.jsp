@@ -28,9 +28,12 @@
         <div class="menu-buffer"></div>
     </jsp:attribute>
 
-
     <jsp:attribute name="content">
+
         <form action="/contact" method="post">
+
+            <p id="message">${message}</p>
+
             <span>Name:</span>
             <input type="text" size="40" name="name">
 
