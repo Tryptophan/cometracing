@@ -11,9 +11,11 @@
 
 .sponsorship {
     margin-top: 40px;
+    overflow-x: scroll;
+    margin-bottom: 40px;
 }
 
-.sponsorshop table {
+.sponsorship table {
     border: none;
 }
 
@@ -47,11 +49,4 @@
 
 .sponsorship table tbody tr:nth-child(02) td:first-child {
     font-style: normal;
-}
-
-.footer-logo img {
-}
-
-.footer-logo {
-
 }

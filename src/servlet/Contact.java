@@ -2,6 +2,7 @@ package servlet;
 
 import servlet.smtp.Mailer;
 
+import javax.mail.internet.AddressException;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -29,7 +30,15 @@ public class Contact extends HttpServlet {
             request.setAttribute("message", "Success! We will respond to you as soon as possible!");
             request.getRequestDispatcher("/contact.jsp").forward(request, response);
         } catch (Exception e) {
-            request.setAttribute("message", e);
+
+            if (e.getCause() instanceof AddressException) {
+                request.setAttribute("message", "Invalid email, please try again.");
+            }
+
+            else {
+                request.setAttribute("message", "Something went wrong, please try again.");
+            }
+
             request.getRequestDispatcher("/contact.jsp").forward(request, response);
         }
     }

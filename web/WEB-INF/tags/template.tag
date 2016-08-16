@@ -16,8 +16,8 @@
 </head>
 <body>
 <div class="menu-wrapper">
-    <a class="menu-toggle" href="#"><img src="resources/img/menu.png"></a>
-    <a class="close-toggle" href="#"><img src="resources/img/close.png"></a>
+    <a class="menu-toggle"><img src="resources/img/menu.png"></a>
+    <a href="/" class="mobile-logo"><img src="resources/img/logo.png"></a>
     <ul class="tabs">
         <a href="/"><img src="resources/img/utd-motorsports.png"></a>
         <jsp:invoke fragment="tabs"/>

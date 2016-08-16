@@ -33,32 +33,15 @@
         <h1>Introducing...</h1>
         <img class="the-car" src="resources/img/the-car.jpg">
         <p>Our team has been hard at work designing and using the necessary tools to build our car. We meticulously
-            design each iteration of the car and perform stress tests and adjustments to each one.</p>
-        <div class="iterations">
-            <div class="iteration">
-                <img src="resources/img/designs/mk1.png"><br>
-                <span>MK.I</span>
-            </div>
-            <div class="iteration">
-                <img src="resources/img/designs/mk2.png"><br>
-                <span>MK.II</span>
-            </div>
-            <div class="iteration">
-                <img src="resources/img/designs/mk3.png"><br>
-                <span>MK.III</span>
-            </div>
-            <div class="iteration">
-                <img src="resources/img/designs/mk4.png"><br>
-                <span>MK.IV</span>
-            </div>
-            <div class="iteration">
-                <img src="resources/img/designs/mk5.png"><br>
-                <span>MK.V</span>
-            </div>
-            <div class="iteration">
-                <img src="resources/img/designs/mk6.png"><br>
-                <span>MK.VI</span>
-            </div>
+            design each iteration of the car and perform stress tests and adjustments to each one. Below you can find
+            various renders of our current design.</p>
+        <div class="renders">
+            <img src="resources/img/renders/render-1.jpg">
+            <img src="resources/img/renders/render-2.jpg">
+            <img src="resources/img/renders/render-3.jpg">
+            <img src="resources/img/renders/render-4.jpg">
+            <img src="resources/img/renders/render-5.jpg">
+            <img src="resources/img/renders/render-6.jpg">
         </div>
     </jsp:attribute>
 

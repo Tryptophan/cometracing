@@ -35,16 +35,16 @@
             <p id="message">${message}</p>
 
             <span>Name:</span>
-            <input type="text" size="40" name="name">
+            <input type="text" name="name">
 
             <span>Email:</span>
-            <input type="text" size="40" name="email">
+            <input type="text" name="email">
 
             <span>Subject:</span>
-            <input type="text" size="40" name="subject">
+            <input type="text" name="subject">
 
             <span>Message:</span>
-            <textarea rows="10" cols="42" name="message"></textarea>
+            <textarea name="message"></textarea>
 
             <input type="submit" class="submit" value="Send">
         </form>

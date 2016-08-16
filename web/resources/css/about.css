@@ -1,11 +1,3 @@
-.content-wrapper {
-    /*background: url(../img/about-bg.png) no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;*/
-}
-
 .content-wrapper h2 {
     display: block;
     width: 380px;
@@ -37,23 +29,38 @@
     z-index: 0;
 }
 
-.officer .arye {
+.officer div {
     display: block;
     width: 150px;
     height: 150px;
-    background: url(../img/arye.jpg) no-repeat;
-    background-size: 100%;
     margin-bottom: 20px;
 }
 
-.officer .ruger {
-    display: block;
-    width: 150px;
-    height: 150px;
-    background: url(../img/ruger.jpg) no-repeat;
+.officer .arye {
+    background: url(../img/officers/arye.jpg) no-repeat;
     background-size: 100%;
-    margin-bottom: 20px;
 }
+
+.officer .ruger {
+    background: url(../img/officers/ruger.jpg) no-repeat;
+    background-size: 100%;
+}
+
+.officer .david {
+    background: url(../img/officers/david.jpg) no-repeat;
+    background-size: 100%;
+}
+
+.officer .charles {
+    background: url(../img/officers/charles.jpg) no-repeat;
+    background-size: 100%;
+}
+
+.officer .sharon {
+    background: url(../img/officers/sharon.jpg) no-repeat;
+    background-size: 100%;
+}
+
 
 .officer span {
     font-size: 12px;
@@ -70,7 +77,7 @@
 }
 
 .officers .row .officer:last-child {
-    margin-right: 0px;
+    margin-right: 0;
 }
 
 .chapter-header {
@@ -80,6 +87,19 @@
 
 .officer-header {
     margin: 40px auto !important;
+}
+
+@media (max-width: 1360px) {
+    .officer {
+        margin: 20px !important;
+        display: block;
+    }
+}
+
+@media (max-width: 860px) {
+    .content-wrapper h2 {
+        width: auto;
+    }
 }
 
 /*.row :last-child {

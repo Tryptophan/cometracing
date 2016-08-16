@@ -35,20 +35,22 @@ p {
     background-color: #69BE28;
     margin-top: 20px;
     color: #FFF;
-    font-size: 26px;
+    font-size: 22px;
     padding: 40px 40px 40px 40px;
     line-height: 34px;
-    text-align: justify;
 }
 
 .sub-title {
     color: #FFF;
     font-size: 34px;
+    margin-bottom: 40px;
+    display: block;
+    text-align: center;
 }
 
 .tabs img {
     width: 150px;
-    margin: 20px 0px 0px 20px;
+    margin: 20px 0 0 20px;
 }
 
 a:link {
@@ -84,7 +86,7 @@ a:visited {
     display: none;
 }
 
-.close-toggle {
+.mobile-logo {
     display: none;
 }
 
@@ -147,27 +149,8 @@ li:last-child {
     font-style: oblique;
 }
 
-.left-button {
-    float: left;
-}
-
-.right-button {
-    float: right;
-}
-
 .footer {
     text-align: center;
-}
-
-.footer-logo {
-    display: inline-block;
-    text-align: center;
-}
-
-.footer-logo img {
-    margin: 100px auto;
-    display: inline-block;
-    width: 82px;
 }
 
 table {
@@ -215,19 +198,24 @@ td {
     .menu-toggle {
         width: 34px;
         height: 26px;
-        padding: 10px 0 10px 0;
-        display: block;
+        padding: 10px 0 10px 5%;
+        display: inline-block;
     }
 
-    .close-toggle img {
-        width: 34px;
-        height: 26px;
+    .mobile-logo {
+        display: inline-block;
+        text-align: center;
+        width: calc(95% - 34px);
+        padding: 10px 0 10px 0;
+        float: right;
+        margin: auto;
     }
 
-    .close-toggle {
-        width: 34px;
+    .mobile-logo img {
         height: 26px;
-        padding: 10px 0 10px 0;
+        position: absolute;
+        left: 50%;
+        right: 50%;
     }
 
     .tabs {
@@ -240,13 +228,44 @@ td {
         margin-top: 0;
     }
 
+    .tabs img {
+        display: none;
+    }
+
     .content-wrapper {
         width: 100%;
+    }
+
+    body .content-wrapper h1, h2 {
+        display: block;
+        padding: 20px;
     }
 }
 
 @media (max-width: 550px) {
     .tab {
         font-size: 14px;
+    }
+
+    h1, h2 {
+        font-size: 24px;
+    }
+
+    p, li, .sub-title {
+        text-align: left;
+    }
+
+    p {
+        font-size: 18px;
+    }
+
+    .sub-title {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+
+    li {
+        font-size: 18px;
+        margin-bottom: 10px;
     }
 }

@@ -50,7 +50,7 @@
                     <span>Ruger Carstens</span>
                 </div>
                 <div class="officer">
-                    <img src="resources/img/officer.png">
+                    <div class="charles"></div>
                     <span class="officer-tag">Vice President</span>
                     <span>Charles VanDergrift</span>
                 </div>
@@ -62,20 +62,20 @@
                     <span>Arye Levi</span>
                 </div>
                 <div class="officer">
-                    <img src="resources/img/officer.png">
+                    <div class="david"></div>
                     <span class="officer-tag">Head of Sponsorship</span>
                     <span>David Azpe</span>
                 </div>
                 <div class="officer">
-                    <img src="resources/img/officer.png">
+                    <div class="sharon"></div>
                     <span class="officer-tag">Secretary</span>
                     <span>Sharon Cho</span>
                 </div>
-                <div class="officer">
-                    <img src="resources/img/officer.png">
-                    <span class="officer-tag">Treasurer</span>
-                    <span>Eduardo Perez Realegeno</span>
-                </div>
+                <%--<div class="officer">--%>
+                    <%--<img src="resources/img/officer.png">--%>
+                    <%--<span class="officer-tag">Treasurer</span>--%>
+                    <%--<span>Eduardo Perez Realegeno</span>--%>
+                <%--</div>--%>
             </div>
         </div>
 
