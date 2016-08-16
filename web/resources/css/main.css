@@ -205,7 +205,6 @@ td {
     .mobile-logo {
         display: inline-block;
         text-align: center;
-        width: calc(95% - 34px);
         padding: 10px 0 10px 0;
         float: right;
         margin: auto;
