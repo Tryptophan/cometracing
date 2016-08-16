@@ -5,6 +5,7 @@ import javax.mail.Session;
 import javax.mail.Transport;
 import javax.mail.internet.InternetAddress;
 import javax.mail.internet.MimeMessage;
+import java.net.InetAddress;
 import java.util.Properties;
 
 /**
@@ -13,10 +14,10 @@ import java.util.Properties;
 
 public class Mailer {
 
-    public static void send(String name, String to, String from, String subject, String message) {
+    public static void send(String name, String to, String from, String subject, String message) throws Exception {
         Properties properties = System.getProperties();
         properties.setProperty("mail.transport.protocol", "smtp");
-        properties.setProperty("mail.smtp.host", "localhost");
+        properties.setProperty("mail.smtp.host", InetAddress.getLocalHost().getHostName());
         properties.setProperty("mail.smtp.port", "2525");
 
         Session session = Session.getDefaultInstance(properties);
