@@ -46,6 +46,13 @@
             <div class="sponsorship">
                 <h2>Levels of Opportunity</h2>
                 <table>
+                    <colgroup>
+                        <col class="bronze" />
+                        <col class="silver" />
+                        <col class="gold"/>
+                        <col class="platinum"/>
+                        <col class="pro" />
+                    </colgroup>
                     <tr>
                         <th>Bronze<br>&ge;$250</th>
                         <th>Silver<br>&ge;$500</th>

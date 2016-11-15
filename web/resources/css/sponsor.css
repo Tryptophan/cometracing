@@ -19,27 +19,27 @@
     border: none;
 }
 
-.sponsorship table tbody tr th {
+.sponsorship table tbody tr th, .sponsorship table tbody tr td {
     color: #FFF;
 }
 
-.sponsorship table tbody tr th:first-child {
+.bronze {
     background-color: #cd7f32;
 }
 
-.sponsorship table tbody tr th:nth-child(02) {
-    background-color: #C0C0C0;
-}
-
-.sponsorship table tbody tr th:nth-child(03) {
-    background-color: #FFD700;
-}
-
-.sponsorship table tbody tr th:nth-child(04) {
+.silver {
     background-color: #A0AABF;
 }
 
-.sponsorship table tbody tr th:nth-child(05) {
+.gold {
+    background-color: #FFD700;
+}
+
+.platinum {
+    background-color: #C0C0C0;
+}
+
+.pro {
     background-color: #DF7027;
 }
 
