@@ -1,4 +1,4 @@
-package servlet.smtp;
+package smtp;
 
 import javax.mail.Message;
 import javax.mail.Session;
@@ -14,11 +14,11 @@ import java.util.Properties;
 
 public class Mailer {
 
-    public static void send(String name, String to, String from, String subject, String message) throws Exception {
+    public static void send(String port, String to, String name, String from, String subject, String message) throws Exception {
         Properties properties = System.getProperties();
         properties.setProperty("mail.transport.protocol", "smtp");
         properties.setProperty("mail.smtp.host", InetAddress.getLocalHost().getHostName());
-        properties.setProperty("mail.smtp.port", "2525");
+        properties.setProperty("mail.smtp.port", port);
 
         Session session = Session.getDefaultInstance(properties);
 
@@ -32,9 +32,7 @@ public class Mailer {
             email.setText(text);
 
             Transport.send(email);
-        }
-
-        catch (Exception e) {
+        } catch (Exception e) {
             throw new RuntimeException(e);
         }
     }
