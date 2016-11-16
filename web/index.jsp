@@ -7,19 +7,19 @@
     </jsp:attribute>
 
     <jsp:attribute name="tabs">
-        <a href="/">
+        <a href="${pageContext.request.contextPath}/">
             <li class="active tab">Home</li>
         </a>
-        <a href="/about">
+        <a href="${pageContext.request.contextPath}/about">
             <li class="tab">About</li>
         </a>
-        <a href="/the-car">
+        <a href="${pageContext.request.contextPath}/the-car">
             <li class="tab">The Car</li>
         </a>
-        <a href="/sponsor">
+        <a href="${pageContext.request.contextPath}/sponsor">
             <li class="tab">Sponsor</li>
         </a>
-        <a href="/contact">
+        <a href="${pageContext.request.contextPath}/contact">
             <li class="tab">Contact</li>
         </a>
     </jsp:attribute>
