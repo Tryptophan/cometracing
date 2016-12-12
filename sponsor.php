@@ -10,7 +10,7 @@
 <body>
 <div class="menu-wrapper">
     <a class="menu-toggle"><img src="resources/img/menu.png"></a>
-    <a href="/" class="mobile-logo"><img src="resources/img/logo.png"></a>
+    <a href="/" class="mobile-logo"><img src="resources/img/utd-motorsports.png"></a>
     <ul class="tabs">
         <a href="/"><img src="resources/img/utd-motorsports.png"></a>
         <a href="/">
@@ -30,7 +30,8 @@
         </a>
     </ul>
     <div class="social-media">
-        <a href="https://www.facebook.com/utdfsae" target="_blank"><span class="socicon-facebook"></span></a>
+        <a href="https://www.facebook.com/utdmotorsports" target="_blank"><span class="socicon-facebook"></span></a>
+        <a href="https://www.instagram.com/utdmotorsports" target="_blank"><span class="socicon-instagram"></span></a>
     </div>
 </div>
 
@@ -38,19 +39,22 @@
 
 
 <div class="content-wrapper">
-    <h1>Our Current Sponsors</h1>
-    <div class="sponsors">
+    <h1>Our Current Partners</h1>
+    <img class="partners" src="resources/img/partners.jpg"/>
+    <!-- <div class="sponsors">
         <a href="http://www.solidworks.com/" target="_blank"><img src="resources/img/solidworks.jpg"></a>
         <a href="http://www.ptc.com/" target="_blank"><img src="resources/img/ptc.jpg"></a>
         <a href="http://www.regalresearch.com/" target="_blank"><img src="resources/img/regal-research.png"></a>
-    </div>
+    </div> -->
     <h1>Sponsorship</h1>
+
     <p>UTD Motorsports is a student-run organization that depends entirely on the monetary, material, and product
         donations as well as technical support and training from businesses and individuals. Without the
-        incredibly generous support of our sponsors, UTD Motorsports, and its substantial benefit to students and
-        industry, would cease to exist.<br><br>We work closely with our sponsors, who provide crucial support,
+        incredibly generous support of our partners, UTD Motorsports, and its substantial benefit to students and
+        industry, would cease to exist.<br><br>We work closely with our partners, who provide crucial support,
         and help to further the team's capabilities. We are proud to represent UTD Motorsports and we hope you will
-        support our efforts.</p>
+        support our efforts.<br><br><a href="https://www.gofundme.com/utdmotorsports">Become a partner today! &rarr;</a></p>
+
     <div class="sponsorship">
         <h2>Levels of Opportunity</h2>
         <table>
@@ -103,52 +107,42 @@
             </tr>
         </table>
     </div>
-    <h2>Return on Investment</h2>
+    <h2>Partnership Benefits</h2>
     <div class="sub-paragraph">
-        <span class="sub-title">Visibility</span>
-        <ul>
-            <li>As a sponsor, your company and its products will receive a huge amount of exposure to various
-                professionals and potential customer across the automotive and racing industry
-            </li>
-            <li>Thousands of professional representatives, exceptional students, and enthusiats attend the FSAE
-                competitions in Michigan and Nebraska
-            </li>
-            <li>University events such as Engineering Week, Welcome Week, alumni events, and UTD Motorsports
-                promotional events
-            </li>
-            <li>Local publicity at car shows, SCCA events, car club events, and track days</li>
-            <li>The Formula SAE competition has been featured by Car &amp; Driver, Motorend, and Road &amp;
-                Track
-            </li>
-        </ul>
-
-        <span class="sub-title">Networking &amp; Recruitment</span>
-        <ul>
-            <li>Sponsors have an instantaneous recruiting connection to student engineers with real-world
-                engineering experience. Exposing students to company sponsorship makes a lasting impression,
-                because it allows them to become familiar with the company's products and services while
-                building a relationship that continues after graduation
-            </li>
-            <li>Through various campus promotional events, many UT Dallas students, alumni, and faculty will be
-                exposed to our sponsors' products and services
-            </li>
-            <li>Industry professionals and potential customers at local racing and automotive events, as well as
-                the FSAE competition, will be able to see our sponsors' products in action, and that these
-                companies support the education of students who will soon be entering the workforce
-            </li>
-        </ul>
-
-        <span class="sub-title">Testing &amp; Feedback</span>
-        <ul>
-            <li>Research and testing reports regaurding our sponsors' parts and services</li>
-            <li>Team newsletter with updates</li>
-            <li class="last-li">Post-competition report</li>
-        </ul>
+    The Formula SAE competition is one of the best real
+    world projects an engineering student can participate
+    while an undergrad. Due to the large scope and
+    immense complexity of designing a vehicle system,
+    participating students are able to apply the knowledge
+    they’ve accumulated through course work as well as
+    get real world experience in both design and
+    manufacturing that will better prepare them for
+    industry. The entire project is student funded, so
+    raising funds for manufacturing costs is a high
+    priority.
+    <span class="sub-title">Access to the next Generation of Engineers</span>
+    Sponsors have a lasting relationship with future engineers.
+    Introducing students to companies through sponsorship makes a
+    lasting impression because it allows them to become familiar with
+    the company’s products and services, while building a relationship
+    that continues after graduation.
+    <br><br>
+    We recognize the need for students to take the concepts they
+    learn in the classroom and apply them in real-world situations. Our
+    student team members gain invaluable experience through hands
+    on engineering application and real-world problem solving.
+    <br><br>
+    In addition to designing, building, and racing the car, our
+    members are also responsible for all aspects of managing the race
+    team. Project management, budget, sponsorship, and media are all
+    handled by the team. The advanced development of these skills has
+    made Formula SAE students highly desirable to companies such as
+    SpaceX, Sauber F1, and General Motors.
     </div>
 
     <div class="footer">
-        <a href="/contact">
-            <div class="button">Become a Sponsor</div>
+        <a href="https://www.gofundme.com/utdmotorsports" target="_blank">
+          <div class="button">Become a Partner</div>
         </a>
     </div>
 </div>

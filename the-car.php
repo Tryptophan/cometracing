@@ -10,7 +10,7 @@
 <body>
 <div class="menu-wrapper">
     <a class="menu-toggle"><img src="resources/img/menu.png"></a>
-    <a href="/" class="mobile-logo"><img src="resources/img/logo.png"></a>
+    <a href="/" class="mobile-logo"><img src="resources/img/utd-motorsports.png"></a>
     <ul class="tabs">
         <a href="/"><img src="resources/img/utd-motorsports.png"></a>
         <a href="/">
@@ -30,7 +30,8 @@
         </a>
     </ul>
     <div class="social-media">
-        <a href="https://www.facebook.com/utdfsae" target="_blank"><span class="socicon-facebook"></span></a>
+        <a href="https://www.facebook.com/utdmotorsports" target="_blank"><span class="socicon-facebook"></span></a>
+        <a href="https://www.instagram.com/utdmotorsports" target="_blank"><span class="socicon-instagram"></span></a>
     </div>
 </div>
 <div class="menu-buffer"></div>
@@ -40,7 +41,7 @@
     <h1>Introducing...</h1>
     <img class="the-car" src="resources/img/the-car.jpg">
     <p>Our team has been hard at work designing and using the necessary tools to build our car. We meticulously
-        design each iteration of the car and perform stress tests and adjustments to each one. Below you can find
+        design each iteration of the car while performing stress tests and adjustments to each one. Below you can find
         various renders of our current design.</p>
     <div class="renders">
         <img src="resources/img/renders/render-1.jpg">
@@ -48,7 +49,6 @@
         <img src="resources/img/renders/render-3.jpg">
         <img src="resources/img/renders/render-4.jpg">
         <img src="resources/img/renders/render-5.jpg">
-        <img src="resources/img/renders/render-6.jpg">
     </div>
 </div>
 

@@ -10,7 +10,7 @@
 <body>
 <div class="menu-wrapper">
     <a class="menu-toggle"><img src="resources/img/menu.png"></a>
-    <a href="/" class="mobile-logo"><img src="resources/img/logo.png"></a>
+    <a href="/" class="mobile-logo"><img src="resources/img/utd-motorsports.png"></a>
     <ul class="tabs">
         <a href="/"><img src="resources/img/utd-motorsports.png"></a>
         <a href="/">
@@ -30,12 +30,14 @@
         </a>
     </ul>
     <div class="social-media">
-        <a href="https://www.facebook.com/utdfsae" target="_blank"><span class="socicon-facebook"></span></a>
+        <a href="https://www.facebook.com/utdmotorsports" target="_blank"><span class="socicon-facebook"></span></a>
+        <a href="https://www.instagram.com/utdmotorsports" target="_blank"><span class="socicon-instagram"></span></a>
     </div>
 </div>
 
 <div class="splash-wrapper">
     <div class="splash-div splash-div-title splash-text">UTD Motorsports</div>
+    <div class="splash-div splash-text">Brought to you by Goodyear Tires</div>
     <br>
 </div>
 </body>
