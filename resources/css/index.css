@@ -8,7 +8,7 @@ html {
 }
 
 .splash-wrapper {
-    margin-left: 52%;
+    margin-left: 45%;
     position: absolute;
     z-index: 1;
     bottom: 10%;
@@ -19,13 +19,13 @@ html {
     display: inline-block;
     color: #FFF;
     margin: 0px 0px 20px 0px;
-    font-size: 62px;
+    font-size: 42px;
     font-weight: 700;
 }
 
 .splash-div-title {
     padding: 10px 200px 10px 20px;
-    font-size: 72px;
+    font-size: 68px;
 }
 
 .splash-btn {
