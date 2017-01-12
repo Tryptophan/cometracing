@@ -61,6 +61,25 @@
     background-size: 100%;
 }
 
+.officer .eduardo {
+    background: url(../img/officers/eduardo.jpg) no-repeat;
+    background-size: 100%;
+}
+
+.officer .matthew {
+    background: url(../img/officers/matthew.jpg) no-repeat;
+    background-size: 100%;
+}
+
+.officer .minh {
+    background: url(../img/officers/minh.jpg) no-repeat;
+    background-size: 100%;
+}
+
+.officer .fez {
+    background: url(../img/officers/fez.jpg) no-repeat;
+    background-size: 100%;
+}
 
 .officer span {
     font-size: 12px;

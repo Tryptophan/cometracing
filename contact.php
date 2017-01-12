@@ -2,15 +2,15 @@
 <?php
 $response = "";
 if(isset($_POST['submit'])) {
-  $to = "jagreenway12@gmail.com";
+  $to = "utdmotorsports@gmail.com";
   $from = $_POST['email'];
   $name = $_POST['name'];
   $subject = $_POST['subject'];
-  $message = $_POST['message'];
+  $message = "AUTOMATED MESSAGE SENT BY UTDMOTORSPORTS.COM FROM " . $name . ":\n\n" . $_POST['message'];
 
   $headers = "From:" . $from;
   if (mail($to, $subject, $message, $headers)) {
-    $response = "Mail Sent. Thank you, we will contact you shortly.";
+    $response = "Thank you, we will contact you shortly.";
   }
   else {
     $response = "Something went wrong, please try again.";
@@ -28,7 +28,7 @@ if(isset($_POST['submit'])) {
 <body>
 <div class="menu-wrapper">
     <a class="menu-toggle"><img src="resources/img/menu.png"></a>
-    <a href="/" class="mobile-logo"><img src="resources/img/logo.png"></a>
+    <a href="/" class="mobile-logo"><img src="resources/img/utd-motorsports.png"></a>
     <ul class="tabs">
         <a href="/"><img src="resources/img/utd-motorsports.png"></a>
         <a href="/">
@@ -48,7 +48,8 @@ if(isset($_POST['submit'])) {
         </a>
     </ul>
     <div class="social-media">
-        <a href="https://www.facebook.com/utdfsae" target="_blank"><span class="socicon-facebook"></span></a>
+        <a href="https://www.facebook.com/utdmotorsports" target="_blank"><span class="socicon-facebook"></span></a>
+        <a href="https://www.instagram.com/utdmotorsports" target="_blank"><span class="socicon-instagram"></span></a>
     </div>
 </div>
 
